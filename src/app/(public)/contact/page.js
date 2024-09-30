@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 const ItemCard = ({label, value})=>{
     return (
-        <div className='flex gap-4 bg-white  rounded-md m-2 p-2'>
+        <div className='flex gap-4 bg-white  rounded-md my-2 p-2'>
             <div>{ label }</div>
             <div>{ value }</div>
         </div>
@@ -36,18 +36,18 @@ export default function Contact(){
                 ipsum lorem ipsum lorem ipsum 
             </p>
 
-            <div className="flex mt-16">
-                <div className="md:w-3/4 px-4 ">
+            <div className="md:flex mt-16">
+                <div className="w-full md:w-3/4 px-4 ">
                     <div className=" bg-white p-10  rounded-xl">
                         <h3 className="text-2xl py-2">Leave a message</h3>
-                        <div className="flex gap-6">
-                            <div>
+                        <div className="w-ful md:flex gap-6">
+                            <div className="w-full my-2">
                                 <label>Name</label>
-                                <input type="text" className="border my-input-text"/>
+                                <input type="text" className="w-full border my-input-text"/>
                             </div>
-                            <div className="w-full">
+                            <div className="w-full my-2">
                                 <label>Email</label>
-                                <input type="text" className="border my-input-text w-full"/>
+                                <input type="text" className="w-full border my-input-text"/>
                             </div>
                         </div>
                         <div className="w-full my-2">
@@ -65,7 +65,7 @@ export default function Contact(){
                         </div>
                     </div>
                 </div>
-                <div className="md:w-1/3">
+                <div className="w-full md:w-1/3 px-4">
 
                 {
                     !isLoading && Object.keys(data.location).map(key => {
