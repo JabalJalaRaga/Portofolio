@@ -13,7 +13,7 @@ export default function About() {
       <h2 className="mt-20 rounded-lg text-center text-3xl w-full">Tentang Saya</h2>
             
             <p className="text-center margin-0 mx-auto w-2/3	">
-                Saya adalah mahasiswa semester 5 bernama jabal jala raga dengan jurusan manajemen informatika tinkat 3 yang kepribadian baik
+                Saya adalah mahasiswa semester 5 bernama muhammad jabal jala raga dengan jurusan manajemen informatika tinkat 3 yang kepribadian baik
             </p>
 
     </>
