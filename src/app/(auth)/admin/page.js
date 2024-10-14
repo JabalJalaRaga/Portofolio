@@ -1,7 +1,7 @@
 export default function Dashboard() {
     return (
       <>
-        asdf
+        Ini adalah halaman admin
       </>
     );
 }

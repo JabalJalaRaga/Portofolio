@@ -9,7 +9,6 @@ export default function Home() {
           <button className=" mt-20 rounded-lg bg-red-500 w-48 min-h-12 text-white" >Get Started</button>
         </div>
       </div>
-
     </>
     
     

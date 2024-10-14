@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
+
  
 interface  ResponseData {
   location: Location | null,
@@ -33,17 +34,17 @@ export default function handler(
     location:{ 
       city:"Jakarta", 
       country:"Indonesia", 
-      street:"Jl. Jalan"
+      street:"Jl. Brother"
     },
     phone:{
-      office:"021 88989",
-      personal:"0813 484994 999794", 
+      office:"021 8098062",
+      personal:"0821 2342 1234", 
       suport: null
     },
     social: {
-      email:"myname@mail.com",
-      skype:"@myname",
-      telegram:"@myname"
+      email:"septz@gmail.com",
+      skype:"@septz",
+      telegram:"@septz"
     }
   }
   res.status(200).json(response)
